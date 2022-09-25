@@ -15,9 +15,9 @@ function calculateSum(d) {
 
 function compareValues(sum,luck) {
     if(sum % luck === 0 ) {
-        Output.innerText = "Your birthday is lucky ";
+        Output.innerText = LuckyNumber.value+" is a lucky number 🥳🥳🥳";
     } else {
-        Output.innerText = "Your birthday is not lucky ";
+        Output.innerText = LuckyNumber.value+" is not that lucky 😕 ";
     }
 }
 

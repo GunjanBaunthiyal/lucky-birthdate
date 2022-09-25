@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
 :root {
-    --background-dark: #f3e8ff;
-    --black: #000;
-  }
+  --background-dark: #7c3aed;
+  --black: #000;
+}
   
   html {
-    background-color: var(--background-dark);
+    background-image: linear-gradient(to bottom, #7c3aed 0%, #ff99cc 100%);
     color: var(--black);
     height: 100%;
   }
 
   body{
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Noto Sans', sans-serif;
-  }
-  
-  * {
-    font-family: "Lato", sans-serif;
   }
   
   .header {
@@ -29,6 +25,9 @@
     margin: auto auto;
     padding: 2rem;
     background-color : #d8b4fe;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -10px 5px 10px gray;
   }
   
   label,
